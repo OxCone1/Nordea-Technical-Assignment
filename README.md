@@ -36,7 +36,8 @@ This endpoint retrieves information about all countries and returns it in a JSON
 
 #### Response
 
-`{
+```
+{
     "countries": [
       {
         "name": "Afghanistan",
@@ -47,7 +48,8 @@ This endpoint retrieves information about all countries and returns it in a JSON
         "country_code": "AX"
       },
       ...]
-}`
+}
+```
 
 ### Retrieve information about a specific country
 
@@ -61,10 +63,28 @@ Where `{name}` is the name of the country you want to retrieve information about
 
 #### Response
 
-`{
+```
+{
     "name": "United Kingdom",
     "country_code": "GB",
     "capital": "London",
     "population": 66488991,
     "flag": "https://restcountries.com/v3.1/flags/gb.png"
-}`
+}
+```
+Built With
+----------
+
+*   Java
+*   Spring Boot
+*   Maven
+
+Author
+------
+
+*   Vadims "OxCone" Lapins
+
+License
+-------
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
