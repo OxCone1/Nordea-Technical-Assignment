@@ -36,7 +36,18 @@ This endpoint retrieves information about all countries and returns it in a JSON
 
 #### Response
 
-`{     "countries": [         {             "name": "Afghanistan",             "country_code": "AF"         },         {             "name": "Åland Islands",             "country_code": "AX"         },         ...     ] }`
+`{
+    "countries": [
+      {
+        "name": "Afghanistan",
+        "country_code": "AF"
+      },
+      {
+        "name": "Åland Islands",
+        "country_code": "AX"
+      },
+      ...]
+}`
 
 ### Retrieve information about a specific country
 
@@ -50,4 +61,10 @@ Where `{name}` is the name of the country you want to retrieve information about
 
 #### Response
 
-`{     "name": "United Kingdom",     "country_code": "GB",     "capital": "London",     "population": 66488991,     "flag": "https://restcountries.com/v3.1/flags/gb.png" }`
+`{
+    "name": "United Kingdom",
+    "country_code": "GB",
+    "capital": "London",
+    "population": 66488991,
+    "flag": "https://restcountries.com/v3.1/flags/gb.png"
+}`
